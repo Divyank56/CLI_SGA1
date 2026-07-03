@@ -1,0 +1,21 @@
+Storage Health Assessment Report
+
+1. Available storage Devices
+The lsblk utility device was executed to list block devices and their parition layouts.
+
+2. Mounted file system
+The df -h command revealed all mounted files systems, including their capacities and current usage.
+
+3. Disk usage
+The du -sh command calculated the total storage consumed within the home directory.
+
+4. Inode Utilization
+The df -i command outputted the current statistics regarding system inode consumption.
+
+5. Storage Health
+The underlying storage infrastructure remained fully operational and securely accessible.
+
+6. Recommendations
+clears out redundant files, archive legacy data, and consistently monitor disk space and inode availability.
+
+

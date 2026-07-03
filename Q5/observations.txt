@@ -1,0 +1,14 @@
+1. lsblk
+This command successfully listed the active storage devices and their respective partitions.
+
+2. df -h
+This command outputted the active mounts alongside their human-readable space usage.
+
+3. du -sh
+This specific command calculated the overall disk space occupied by the user's home folder.
+
+4. df -i
+This command was utilized to expose the current availability and usage of system inodes.
+
+5. Storage Assessment
+These executed commands effectively verified overall disk capacity and inode resource limits.
