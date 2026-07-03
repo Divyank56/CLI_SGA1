@@ -1,0 +1,14 @@
+1. lsof
+This command successfully listed all currently open files alongside their running processes.
+
+2. File Descriptors
+Checking this specific directory exposed the primary system descriptors 0, 1, and 2.
+
+3. Output Redirection
+This specific operator captured the standard command output and stored it in a file.
+
+4. Error Redirection
+This particular operator caught the generated error message and wrote it to a file.
+
+5. Resource Limits
+This executed command printed out the core resource boundaries enforced by the system.

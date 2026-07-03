@@ -1,0 +1,16 @@
+File Access and I/O Investigation Report
+
+1. Open Files
+The lsof utility was executed to pinpoint open files and their associated active processes.
+
+2. File Descriptors
+Inspecting the /proc/self/fd directory revealed active descriptors. Standard input maps to 0, standard output to 1, and standard error to 2.
+
+3. Output and Error Redirection
+The > symbol successfully routed standard output to output.txt. The 2> symbol successfully routed error messages to error.txt.
+
+4. Resource Limits
+Executing ulimit -a revealed the operating system's configured caps for files, memory, and running processes.
+
+5. Linux I/O
+The system handles data streams via file descriptors, utilizing redirection to route these streams directly into files rather than the console screen.
