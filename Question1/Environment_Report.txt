@@ -1,0 +1,16 @@
+Environment Verification Report
+
+1. User Identity
+The id command was executed to show user and group details.
+
+2. Active Shell
+The echo $SHELL command outputted the current active shell.
+
+3. Current Directory
+The pwd command printed the present working directory path.
+
+4. Directory Listing
+The ls -la command listed all the local files and folders.
+
+5. Network Verification
+The ping command confirmed the active internet connection.
