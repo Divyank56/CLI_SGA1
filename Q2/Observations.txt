@@ -1,0 +1,14 @@
+1. mkdir
+This command was utilized to successfully construct the workspace folders.
+
+2. ls -ld
+This command displayed the baseline permissions and directory ownership data.
+
+3. chmod 700
+This command modified the access rights to securely lock down the directory.
+
+4. umask
+This command outputted the default permission mask used for creating new files.
+
+5. Ownership
+This verified that the current user maintains absolute control over the workspace.
